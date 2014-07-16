@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <RadioGroup
+        android:id="@+id/am_rbg_BikeCar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="66dp" >
+
+        <RadioButton
+            android:id="@+id/am_rbBike"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/am_rb_Bike" />
+
+        <RadioButton
+            android:id="@+id/am_rbCar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/am_rbCar" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/am_btStartStop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/am_rbg_BikeCar"
+        android:layout_below="@+id/am_rbg_BikeCar"
+        android:layout_marginTop="48dp"
+        android:text="@string/am_bt_StartStop" />
+
+    <Chronometer
+        android:id="@+id/am_chronometer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/am_btStartStop"
+        android:layout_marginBottom="23dp"
+        android:layout_marginLeft="37dp"
+        android:layout_toRightOf="@+id/am_btStartStop"
+        android:text="Chronometer" />
+
+</RelativeLayout>

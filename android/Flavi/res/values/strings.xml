@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Flavi</string>
+    <string name="title_activity_am__main">AM_MainActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="am_bt_StartStop">Start</string>
+    <string name="am_rb_Bike">I will ride a Bike</string>
+    <string name="am_rbCar">I will drive a Car</string>
+    <string name="am_tvCounter">00:00</string>
+    <string name="am_btStop">Stop</string>
+
+</resources>
